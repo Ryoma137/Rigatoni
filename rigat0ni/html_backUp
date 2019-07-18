@@ -1,0 +1,1766 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>Rigatoni</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+    <!-- Font awesome -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">   
+    <!-- Slick slider -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css">    
+    <!-- Date Picker -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-datepicker.css">   
+     <!-- Gallery Lightbox -->
+    <link href="assets/css/magnific-popup.css" rel="stylesheet"> 
+    <!-- Theme color -->
+    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">     
+
+    <!-- Main style sheet -->
+    <link href="style.css" rel="stylesheet">    
+
+   
+    <!-- Google Fonts -->
+
+    <!-- Prata for body  -->
+    <link href='https://fonts.googleapis.com/css?family=Prata' rel='stylesheet' type='text/css'>
+    <!-- Tangerine for small title -->
+    <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>   
+    <!-- Open Sans for title -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+
+  <!--START SCROLL TOP BUTTON -->
+    <a class="scrollToTop" href="#">
+      <i class="fa fa-angle-up"></i>
+    </a>
+  <!-- END SCROLL TOP BUTTON -->
+
+  <!-- Start header section -->
+  <header id="mu-header">  
+    <nav class="navbar navbar-default mu-main-navbar" role="navigation">  
+      <div class="container">
+        <div class="navbar-header">
+          <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <!-- LOGO -->       
+
+           <!--  Text based logo  -->
+          <!--<a class="navbar-brand" href="index.html">Osteria<span>X</span></a> -->
+
+		      <!--  Image based logo  -->
+          <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="Logo img"></a>
+         
+
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
+            <li><a href="#mu-restaurant-menu">MENU</a></li> 
+			<li><a href="#mu-chef">CREATE YOUR PASTA</a></li> 		
+            <li><a href="#mu-reservation">BOOK NOW</a></li>                       
+            <li><a href="#mu-gallery">GALLERY</a></li>
+			<li><a href="#mu-about-us">ABOUT US</a></li> 
+            <li><a href="#mu-contact">CONTACT</a></li> 
+          </ul>                            
+        </div><!--/.nav-collapse -->       
+      </div>          
+    </nav> 
+  </header>
+  <!-- End header section -->
+ 
+
+  <!-- Start slider  -->
+  <section id="mu-slider">
+    <div class="mu-slider-area"> 
+
+      <!-- Top slider -->
+      <div class="mu-top-slider">
+
+        <!-- Top slider single slide -->
+        <div class="mu-top-slider-single">
+          <img src="assets/img/slider/1.jpg" alt="img">
+          <!-- Top slider content -->
+          <div class="mu-top-slider-content">
+            <span class="mu-slider-small-title">Welcome to</span>
+            <h2 class="mu-slider-title">Rigatoni</h2>
+            <p>The one and only pasta specialised restaurant in Australia</p>           
+            <a href="#mu-reservation" class="mu-readmore-btn mu-reservation-btn">BOOK A TABLE</a>
+          </div>
+          <!-- / Top slider content -->
+        </div>
+        <!-- / Top slider single slide -->    
+
+         <!-- Top slider single slide -->
+        <div class="mu-top-slider-single">
+          <img src="assets/img/slider/2.jpeg" alt="img">
+          <!-- Top slider content -->
+          <div class="mu-top-slider-content">
+            <span class="mu-slider-small-title">Made by</span>
+            <h2 class="mu-slider-title">Top International chefs</h2>
+            <p>From Europe - Asia - America</p>           
+           <a href="#mu-reservation" class="mu-readmore-btn mu-reservation-btn">BOOK A TABLE</a>
+          </div>
+          <!-- / Top slider content -->
+        </div>
+        <!-- / Top slider single slide --> 
+
+        <!-- Top slider single slide -->
+        <div class="mu-top-slider-single">
+          <img src="assets/img/slider/3.jpg" alt="img">
+          <!-- Top slider content -->
+          <div class="mu-top-slider-content">
+            <span class="mu-slider-small-title">All Menu</span>
+            <h2 class="mu-slider-title">Created with passion</h2>
+            <p>"Life is too short not to have pasta" - Rigatoni</p>           
+            <a href="#mu-reservation" class="mu-readmore-btn mu-reservation-btn">BOOK A TABLE</a>
+          </div>
+          <!-- / Top slider content -->
+        </div>
+        <!-- / Top slider single slide -->   
+
+      </div>
+    </div>
+  </section>
+  <!-- End slider  -->
+  
+  
+  
+    <!-- Start Restaurant Menu -->
+   <section id="mu-restaurant-menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-restaurant-menu-area">
+
+            <div class="mu-title">
+              <span class="mu-subtitle">Discover</span>
+              <h2>OUR MENU</h2>
+            </div>
+            
+            <div class="mu-restaurant-menu-content">
+              <ul class="nav nav-tabs mu-restaurant-menu">
+                <li class="active"><a href="#breakfast" data-toggle="tab">Pasta Dishes</a></li>
+                <li><a href="#meals" data-toggle="tab">Risottos</a></li>
+                <li><a href="#snacks" data-toggle="tab">Salads</a></li>
+                <li><a href="#desserts" data-toggle="tab">Sides</a></li>
+                <li><a href="#drinks" data-toggle="tab">Drinks</a></li>
+              </ul>
+
+              <!-- Tab panes -->
+              <div class="tab-content">
+                <div class="tab-pane fade in active" id="breakfast">
+                  <div class="mu-tab-content-area">
+                    <div class="row">
+
+                      <div class="col-md-6">
+                        <div class="mu-tab-content-left">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-1.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">RIGATONI AL TONO E PISELLI</a></h4>
+                                  <span class="mu-menu-price">$22</span>
+                                  <p>Homemade rigatoni pasta tuna, peas, white wine and tomatoes.  - Ask for Vegetarian!</p>
+                                </div>
+                              </div>
+                            </li>
+                             
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-2.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">MARE E MONTE</a></h4>
+                                  <span class="mu-menu-price">$19</span>
+                                  <p>Fettuccine, King Prawns, Mushrooms, Shallots, Napolitana Sauce & Cream.</p>
+                                </div>
+                              </div>
+                            </li>
+							<li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-3.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                   <h4 class="media-heading"><a href="#">CHICKEN AVOCADO</a></h4>
+                                  <span class="mu-menu-price">$20</span>
+                                  <p>Chicken, Avocado, White Wine, Parsley & Cream.</p>
+                                </div>
+                              </div>
+                            </li>
+							<li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-4.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                   <h4 class="media-heading"><a href="#">SALMON</a></h4>
+                                  <span class="mu-menu-price">$22</span>
+                                  <p>Ravioli, Fresh Salmon, Capers, Dill, Shallots & Cream.</p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                        </div>
+                      </div>
+
+                     <div class="col-md-6">
+                       <div class="mu-tab-content-right">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-5.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">MARINARA</a></h4>
+                                  <span class="mu-menu-price">$22</span>
+                                  <p>Linguine, Fresh Seafood Mix, White Wine & Napolitana Sauce.</p>
+                                </div>
+                              </div>
+                            </li>
+							<li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-6.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">RAVIOLI CON CARNE</a></h4>
+                                  <span class="mu-menu-price">$20</span>
+                                  <p>Homemade ravioli with Bolognese filing, onions, carrots, spring onions + cherry tomtoes in light tomato cream sauce.</p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-7.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">BOLOGNESE</a></h4>
+                                  <span class="mu-menu-price">$16</span>
+                                  <p>Spaghetti, Minced Meat & Tomato.</p>
+                                </div>
+                              </div>
+                            </li>
+							
+                             
+                          </ul>   
+                       </div>
+                     </div>
+
+                   </div>
+                 </div>
+                </div>
+
+                <div class="tab-pane fade" id="meals">
+                  <div class="mu-tab-content-area">
+                    <div class="row">
+
+                      <div class="col-md-6">
+                        <div class="mu-tab-content-left">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-8.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">WILD MUSHROOM</a></h4>
+                                  <span class="mu-menu-price">$20</span>
+                                  <p>Porcini Mushrooms, Hint of Napolitana Sauce & Parmesan Cheese - Ask for Vegetarian!</p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-9.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">SEAFOOD</a></h4>
+                                  <span class="mu-menu-price">$22</span>
+                                  <p>Fresh Seafood, White Wine, Napolitana Sauce & Parmesan Cheese</p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-10.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">CHICKEN</a></h4>
+                                  <span class="mu-menu-price">$20</span>
+                                  <p>Chicken Breast, Shallots, Peppercorn, Napolitana Sauce, hint of cream & Parmesan Cheese.</p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                        </div>
+                      </div>
+
+                     <div class="col-md-6">
+                       <div class="mu-tab-content-right">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-11.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">PRAWN</a></h4>
+                                  <span class="mu-menu-price">$22</span>
+                                  <p>King Prawns, Cream, White Wine, Fresh Rocket & Parmesan Cheese</p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-12.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">SALMON</a></h4>
+                                  <span class="mu-menu-price">$22</span>
+                                  <p>Fresh Salmon, Dill, Capers, White Wine, Cream, hint of Napolitana Sauce & Parmesan Cheese</p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                       </div>
+                     </div>
+
+                   </div>
+                 </div>
+                </div>
+
+                <div class="tab-pane fade" id="snacks">
+                  <div class="mu-tab-content-area">
+                    <div class="row">
+
+                      <div class="col-md-6">
+                        <div class="mu-tab-content-left">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-13.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">CAPRESE SALAD</a></h4>
+                                  <span class="mu-menu-price">$10</span>
+                                  <p>Tomato, fresh Basil, Bocconcini Cheese, Kibbled Pepper & Extra virgin Olive oil - Ask for Vegetarian!</p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-14.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">CAESAR SALAD</a></h4>
+                                  <span class="mu-menu-price">$10</span>
+                                  <p>Cos Lettuce, Bacon, Croutons, homemade Caesar dressing, Anchovies & Parmesan Cheese</p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-15.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">ITALIAN SALAD</a></h4>
+                                  <span class="mu-menu-price">$10</span>
+                                  <p>Tomato, Cucumber, Green Leaves And Olives - Vegetarian</p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                        </div>
+                      </div>
+
+                     <div class="col-md-6">
+                       <div class="mu-tab-content-right">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-16.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">GREEK SALAD</a></h4>
+                                  <span class="mu-menu-price">$10</span>
+                                  <p>Tomato, Capsicum, Olives, Fetta Cheese, Mixed Lettuce & Spanish onions - Ask for Vegetarian!</p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-17.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">ROCKET SALAD</a></h4>
+                                  <span class="mu-menu-price">$10</span>
+                                  <p>Wild Rocket, shaved Parmesan Cheese, Balsamic Vinegar & extra Virgin oil - Ask for Vegetarian!</p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-18.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">CAESAR SALAD WITH CHICKEN</a></h4>
+                                  <span class="mu-menu-price">$15</span>
+                                  <p>chicken breast, bacon, rocket, croutons, parnesan cheese, caesar dressing</p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                       </div>
+                     </div>
+
+                   </div>
+                 </div>
+                </div>
+
+                <div class="tab-pane fade" id="desserts">
+                  <div class="mu-tab-content-area">
+                    <div class="row">
+
+                      <div class="col-md-6">
+                        <div class="mu-tab-content-left">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-19.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">GARLIC BREAD</a></h4>
+                                  <span class="mu-menu-price">$3</span>
+                                  <p></p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-20.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">HERB BREAD</a></h4>
+                                  <span class="mu-menu-price">$3</span>
+                                  <p></p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-21.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">BRUSCHETTA</a></h4>
+                                  <span class="mu-menu-price">$6</span>
+                                  <p></p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                        </div>
+                      </div>
+
+                     <div class="col-md-6">
+                       <div class="mu-tab-content-right">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-22.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">CHEESY GARLIC BREAD</a></h4>
+                                  <span class="mu-menu-price">$4.50</span>
+                                  <p></p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-23.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">BOWL OF CHIPS</a></h4>
+                                  <span class="mu-menu-price">$4</span>
+                                  <p></p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-24.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">SIDE OF VEGETABLES</a></h4>
+                                  <span class="mu-menu-price">$9</span>
+                                  <p></p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                       </div>
+                     </div>
+
+                   </div>
+                 </div>
+                </div>
+
+                <div class="tab-pane fade" id="drinks">
+                  <div class="mu-tab-content-area">
+                    <div class="row">
+
+                      <div class="col-md-6">
+                        <div class="mu-tab-content-left">
+                          <ul class="mu-menu-item-nav">
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-25.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">RIGATONI SIGNATURE</a></h4>
+                                  <span class="mu-menu-price">$17</span>
+                                  <p>Olmeca Altos Plata, fresh lemon, egg white & agave in a salt rimmed margarita glass. With Gran Centenario Reposado </p>
+                                </div>
+                              </div>
+                            </li>
+							<li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-27.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">SPARKLING WINE </a></h4>
+                                  <span class="mu-menu-price">$9</span>
+                                  <p>Citrus & apple with a soft creamy finish.</p>
+                                </div>
+                              </div>
+                            </li>
+							<li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-28.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">ROSE WINE</a></h4>
+                                  <span class="mu-menu-price">$12</span>
+                                  <p>Light & dry with wild strawberries, apple & brioche.</p>
+                                </div>
+                              </div>
+                            </li>
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-26.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">BLOODY FRIDA COCKTAIL</a></h4>
+                                  <span class="mu-menu-price">$18</span>
+                                  <p>Made with our house Frida mix of grilled roasted capsicum, abole peppers& onion, marinated in Worcestershire sauce, with a touch of fresh basil & coriander. Served with a healthy dose of Olmeca Altos Plata & tomato juice. Served in a tall glass over ice.</p>
+                                </div>
+                              </div>
+                            </li>
+                             
+                          </ul>   
+                        </div>
+                      </div>
+
+                     <div class="col-md-6">
+                       <div class="mu-tab-content-right">
+                          <ul class="mu-menu-item-nav">
+						  <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-30.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">WHITE WINE</a></h4>
+                                  <span class="mu-menu-price">$12/58</span>
+                                  <p>Subtle pineapple, citrus aromas with flavours of melon, sour apple & tangerine.</p>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-29.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">RED WINE</a></h4>
+                                  <span class="mu-menu-price">$16/76</span>
+                                  <p>Plums & black cherries with hints of white pepper.</p>
+                                </div>
+                              </div>
+                            </li>
+							
+                             <li>
+                              <div class="media">
+                                <div class="media-left">
+                                  <a href="#">
+                                    <img class="media-object" src="assets/img/menu/menu-31.jpg" alt="img">
+                                  </a>
+                                </div>
+                                <div class="media-body">
+                                  <h4 class="media-heading"><a href="#">SOFT DRINK CANS</a></h4>
+                                  <span class="mu-menu-price">$3</span>
+                                  <p>Coke or Lemonade or Chinotto</p>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>   
+                       </div>
+                     </div>
+
+                   </div>
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Restaurant Menu -->
+  
+  
+  <!-- Start Create  your own -->
+  <section id="mu-chef">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-chef-area">
+
+            <div class="mu-title">
+              <span class="mu-subtitle">Create</span>
+              <h2>Your Own Pasta</h2>
+            </div>
+
+            <div class="mu-chef-content">
+              <ul class="mu-chef-nav">
+                <li>
+                  <div class="mu-single-chef">
+                    <figure class="mu-single-chef-img">
+                      <img src="assets/img/chef/chef-1.jpg" alt="chef img">
+                    </figure>
+                    <div class="mu-single-chef-info">
+                      <h4>Pasta 1</h4>
+                      <span>description</span>
+                    </div>
+                    <div class="mu-single-chef-social">
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-google-plus"></i></a>
+                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="mu-single-chef">
+                    <figure class="mu-single-chef-img">
+                      <img src="assets/img/chef/chef-2.jpg" alt="chef img">
+                    </figure>
+                    <div class="mu-single-chef-info">
+                      <h4>Pasta 2</h4>
+                      <span>description</span>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="mu-single-chef">
+                    <figure class="mu-single-chef-img">
+                      <img src="assets/img/chef/chef-3.jpg" alt="chef img">
+                    </figure>
+                    <div class="mu-single-chef-info">
+                      <h4>Pasta 3</h4>
+                      <span>Grill </span>
+                    </div>
+                  </div>
+                </li>
+
+
+                <li>
+                  <div class="mu-single-chef">
+                    <figure class="mu-single-chef-img">
+                      <img src="assets/img/chef/chef-1.jpg" alt="chef img">
+                    </figure>
+                    <div class="mu-single-chef-info">
+                      <h4>Pasta 4</h4>
+                      <span>Pizza </span>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="mu-single-chef">
+                    <figure class="mu-single-chef-img">
+                      <img src="assets/img/chef/chef-2.jpg" alt="chef img">
+                    </figure>
+                    <div class="mu-single-chef-info">
+                      <h4>Pasta 5</h4>
+                      <span>Grill </span>
+                    </div>
+                  </div>
+                </li>
+                
+                <li>
+                  <div class="mu-single-chef">
+                    <figure class="mu-single-chef-img">
+                      <img src="assets/img/chef/chef-3.jpg" alt="chef img">
+                    </figure>
+                    <div class="mu-single-chef-info">
+                      <h4>Pasta 6</h4>
+                      <span>Burger </span>
+                    </div>
+                    
+                  </div>
+                </li>                      
+              </ul>
+            </div>
+          </div>
+        </div>
+<!-- Start Ingredient section -->
+		<div class="mu-title create_title">
+              <h2>Choose Your Ingredients</h2>
+        </div>
+    <form action ="check_reservation.php" method="POST">
+		<div class="col-md-12">
+			<h3 class="media-heading topping_title">Your toppings:</h3>
+			<div id = "selected" class="col-md-12 create_chosen_topping">
+			</div>
+			
+			<h3 class="media-heading topping_title">Choose toppings:</h3>
+			
+			<h4 class="media-heading topping_subtitle">Pasta types:</h4>
+			
+<!-- Start pasta type -->
+			<div class="row eight-cols"> 
+				
+				
+				
+					<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+						<div class=" toppingImg">
+							<img src="assets/img/pastaType/type-1.jpg">
+						</div>
+
+					
+						<div class="div_topping_img">
+							<div class="topping_name">
+							<input type="checkbox" name="toppings[21]"  value="rigatoni"> Rigatoni
+							</div>
+						</div>
+					</div>
+
+					<div class=" col-lg-1 col-md-3 col-sm-4 col-xs-6">
+						<div class="toppingImg">
+							<img src="assets/img/pastaType/type-2.jpg">
+						</div>
+
+						<div class="div_topping_img">
+							<div class="topping_name">
+							<input type="checkbox" name="toppings[22]"  value="spaghetti"> Spaghetti
+							</div>
+						</div>
+					</div>
+
+					<div class=" col-lg-1 col-md-3 col-sm-4 col-xs-6">
+						<div class="toppingImg">
+							<img src="assets/img/pastaType/type-3.jpg">
+						</div>
+
+						<div class="div_topping_img">
+							<div class="topping_name">
+							<input type="checkbox" name="toppings[23]" value="ravioli"> Ravioli
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+						<div class="toppingImg">
+							<img src="assets/img/pastaType/type-4.jpg">
+						</div>
+
+						<div class="div_topping_img">
+							<div class="topping_name">
+							<input type="checkbox" name="toppings[24]" value="linguine"> Linguine
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+						<div class="toppingImg">
+							<img src="assets/img/pastaType/type-5.jpg">
+						</div>
+
+						<div class="div_topping_img">
+							<div class="topping_name">
+							<input type="checkbox" name="toppings[25]" value="fusilli"> Fusilli
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+						<div class="toppingImg">
+							<img src="assets/img/pastaType/type-6.jpg">
+						</div>
+
+						<div class="div_topping_img">
+							<div class="topping_name">
+							<input type="checkbox" name="toppings[26]" value="angelHair"> Angle Hair
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+						<div class="toppingImg">
+							<img src="assets/img/pastaType/type-7.jpg">
+						</div>
+
+						<div class="div_topping_img">
+							<div class="topping_name">
+							<input type="checkbox" name="toppings[27]" alue="greenFettuicine"> Grren Fettuicine
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+						<div class="toppingImg">
+							<img src="assets/img/pastaType/type-8.jpg">
+						</div>
+
+						<div class="div_topping_img">
+							<div class="topping_name">
+							<input type="checkbox" name="toppings[28]" value="farfalle"> Farfalle
+							</div>
+						</div>
+					</div>
+					
+				
+
+       </div> 
+<!-- end pasta type  -->
+			
+			
+			<h4 class="media-heading topping_subtitle">Toppings:</h4>
+			
+			<div class="row eight-cols"> <!-- Start topping -->
+			
+				<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+					<div class="toppingImg">
+						<img src="assets/img/topping/top-1.jpg">
+					</div>
+
+					<div class="div_topping_img">
+						<div class="topping_name">
+						<input type="checkbox" name="toppings[0]" value="tomatoes"> Tomatoes
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+					<div class="toppingImg">
+						<img src="assets/img/topping/top-2.jpg">
+					</div>
+
+					<div class="div_topping_img">
+						<div class="topping_name">
+						<input type="checkbox" name="toppings[1]" value="basil"> Basil
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+					<div class="toppingImg">
+						<img src="assets/img/topping/top-3.jpg">
+					</div>
+
+					<div class="div_topping_img">
+						<div class="topping_name">
+						<input type="checkbox" name="toppings[2]" value="rocket"> Rocket
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+					<div class="toppingImg">
+						<img src="assets/img/topping/top-4.jpg">
+					</div>
+
+					<div class="div_topping_img">
+						<div class="topping_name">
+						<input type="checkbox" name="toppings[3]" value="garlic"> Garlic
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+					<div class="toppingImg">
+						<img src="assets/img/topping/top-5.jpg">
+					</div>
+
+					<div class="div_topping_img">
+						<div class="topping_name">
+						<input type="checkbox" name="toppings[4]" value="mushroom"> Mushroom
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+					<div class="toppingImg">
+						<img src="assets/img/topping/top-6.jpg">
+					</div>
+
+					<div class="div_topping_img">
+						<div class="topping_name">
+						<input type="checkbox" name="toppings[5]" value="zucchini"> Zucchini
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+					<div class="toppingImg">
+						<img src="assets/img/topping/top-7.jpg">
+					</div>
+
+					<div class="div_topping_img">
+						<div class="topping_name">
+						<input type="checkbox" name="toppings[6]" value="spinach"> Spinach
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+					<div class="toppingImg">
+						<img src="assets/img/topping/top-8.jpg">
+					</div>
+
+					<div class="div_topping_img">
+						<div class="topping_name">
+						<input type="checkbox" name="toppings[7]" value="onion"> Onion
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+					<div class="toppingImg">
+						<img src="assets/img/topping/top-9.jpg">
+					</div>
+
+					<div class="div_topping_img">
+						<div class="topping_name">
+						<input type="checkbox" name="toppings[8]" value="chicken"> Chicken
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+					<div class="toppingImg">
+						<img src="assets/img/topping/top-10.jpg">
+					</div>
+
+					<div class="div_topping_img">
+						<div class="topping_name">
+						<input type="checkbox" name="toppings[9]" value="prawn"> Prawn
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+					<div class="toppingImg">
+						<img src="assets/img/topping/top-11.jpg">
+					</div>
+
+					<div class="div_topping_img">
+						<div class="topping_name">
+						<input type="checkbox" name="toppings[10]" value="salmon"> Salmon
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+					<div class="toppingImg">
+						<img src="assets/img/topping/top-12.jpg">
+					</div>
+
+					<div class="div_topping_img">
+						<div class="topping_name">
+						<input type="checkbox" name="toppings[11]" value="seafood"> Mixed Seafood
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+					<div class="toppingImg">
+						<img src="assets/img/topping/top-13.jpg">
+					</div>
+
+					<div class="div_topping_img">
+						<div class="topping_name">
+						<input type="checkbox" name="toppings[12]" value="salami"> Salami
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+					<div class="toppingImg">
+						<img src="assets/img/topping/top-14.jpg">
+					</div>
+
+					<div class="div_topping_img">
+						<div class="topping_name">
+						<input type="checkbox" name="toppings[13]" value="bacon"> Bacon
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+					<div class="toppingImg">
+						<img src="assets/img/topping/top-15.jpg">
+					</div>
+
+					<div class="div_topping_img">
+						<div class="topping_name">
+						<input type="checkbox" name="toppings[14]" value="meatball"> Meatball
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+					<div class="toppingImg">
+						<img src="assets/img/topping/top-16.jpg">
+					</div>
+
+					<div class="div_topping_img">
+						<div class="topping_name">
+						<input type="checkbox" name="toppings[15]" value="parmesanCream"> Parmesan Cream Sauce
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+					<div class="toppingImg">
+						<img src="assets/img/topping/top-17.jpg">
+					</div>
+
+					<div class="div_topping_img">
+						<div class="topping_name">
+						<input type="checkbox" name="toppings[16]" value="ossoBucco"> Osso Bucco Sauce
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+					<div class="toppingImg">
+						<img src="assets/img/topping/top-18.jpg">
+					</div>
+
+					<div class="div_topping_img">
+						<div class="topping_name">
+						<input type="checkbox" name="toppings[17]" value="tomatoSauce"> Tomato Sauce
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+					<div class="toppingImg">
+						<img src="assets/img/topping/top-19.jpg">
+					</div>
+
+					<div class="div_topping_img">
+						<div class="topping_name">
+						<input type="checkbox" name="toppings[18]" value="chilli"> Chilli
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+					<div class="toppingImg">
+						<img src="assets/img/topping/top-20.jpg">
+					</div>
+
+					<div class="div_topping_img">
+						<div class="topping_name">
+						<input type="checkbox" name="toppings[19]" value="mozzarella"> Mozzarella
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-1 col-md-3 col-sm-4 col-xs-6">
+					<div class="toppingImg">
+						<img src="assets/img/topping/top-21.jpg">
+					</div>
+
+					<div class="div_topping_img">
+						<div class="topping_name">
+						<input type="checkbox" name="toppings[20]" value="shreddedParmesan"> Shredded Parmesan Chesese
+						</div>
+					</div>
+				</div>
+
+			 </div> <!-- end topping -->
+			
+			
+		</div>
+		
+      </div>
+    </div>
+  
+
+  <!-- Start Reservation section -->
+ <!--<section id="mu-reservation">-->
+ <!-- <form action ="check_reservation.php" method="POST">-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="mu-reservation-area">
+
+          <div class="mu-title">
+            <span class="mu-subtitle">Make A</span>
+            <h2>Reservation</h2>
+          </div>
+
+          <div class="mu-reservation-content">
+            <p>Located in the heart of the Sydney CBD, 1 Pitt St, Sydney NSW 2000, Rigatoni accepts booking at all times.</p>
+
+            <div class="col-md-6">
+              <div class="mu-reservation-left">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Full Name" name="name">
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email" name="email">
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Phone Number"name="phoneNumber">
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+
+                      <div class="form-group">
+                        <select class="form-control" name="people">
+                          <option value="0">Number of people</option>
+                          <option value="1 Person" name="people[0]">1</option>
+                          <option value="2 People" name="people[1]">2</option>
+                          <option value="3 People" name="people[2]">3</option>
+                          <option value="4 People" name="people[3]">4</option>
+                          <option value="5 People" name="people[4]">5</option>
+                          <option value="6 People" name="people[5]">6</option>
+                          <option value="7 People" name="people[6]">7</option>
+                          <option value="8 People" name="people[7]">8</option>
+                          <option value="9 People" name="people[8]">9</option>
+                          <option value="10 People" name="people[9]">10+ (Please Specity in message)</option>
+                        </select>
+                      </div>
+
+                      <div class="form-group">
+                        <select class="form-control"name="time">
+                          <option value="0">Time</option>
+                          <option value="12.00 PM" name="time[0]">12.00 PM</option>
+                          <option value="12.30 PM" name="time[1]">12.30 PM</option>
+                          <option value="1.00 PM" name="time[2]">1.00 PM</option>
+                          <option value="1.30 PM" name="time[3]">1.30 PM</option>
+                          <option value="2.00 PM" name="time[4]">2.00 PM</option>
+                          <option value="2.30 PM" name="time[5]">2.30 PM</option>
+                          <option value="3.00 PM" name="time[6]">3.00 PM</option>
+                          <option value="3.30 PM" name="time[7]">3.30 PM</option>
+                          <option value="4.00 PM" name="time[8]">4.00 PM</option>
+                          <option value="4.30 PM" name="time[9]">4.30 PM</option>
+                          <option value="5.00 PM" name="time[10]">5.00 PM</option>
+                          <option value="5.30 PM" name="time[11]">5.30 PM</option>
+                          <option value="6.00 PM" name="time[12]">6.00 PM</option>
+                          <option value="6.30 PM" name="time[13]">6.30 PM</option>
+                          <option value="7.00 PM" name="time[14]">7.00 PM</option>
+                          <option value="7.30 PM" name="time[15]">7.30 PM</option>
+                          <option value="8.00 PM" name="time[16]">8.00 PM</option>
+                          <option value="8.30 PM" name="time[17]">8.30 PM</option>
+                        </select>
+                      </div>
+
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="datepicker" placeholder="Date"name="date">
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <textarea class="form-control" cols="30" rows="10" placeholder="Your Message"name="message"></textarea>
+                      </div>
+                    </div>
+                    <button type="submit" name="reservation_submit" class="mu-readmore-btn">Make Reservation</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <div class="col-md-5 col-md-offset-1">
+              <div class="mu-reservation-right">
+                <div class="mu-opening-hour">
+                  <h2>Opening Hours</h2>
+                    <ul class="list-unstyled">
+                      <li>
+                          <p>Monday - Sunday</p>
+                          <p>12:00 PM - 10:00 PM</p>
+                      </li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--add form-->
+</section>
+<!-- End Reservation section -->
+
+  <!-- Start Gallery -->
+  <section id="mu-gallery">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-gallery-area">
+
+            <div class="mu-title">
+              <span class="mu-subtitle">Discover</span>
+              <h2>Our Gallery</h2>
+            </div>
+
+            <div class="mu-gallery-content">
+            
+              <!-- Start gallery image -->
+              <div class="mu-gallery-body">
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">
+                    <div class="mu-single-gallery-item">
+	                    <figure class="mu-single-gallery-img">
+	                      <a class="mu-imglink" href="assets/img/gallery/1.jpg">
+                          <img alt="img" src="assets/img/gallery/1.jpg">
+                           <div class="mu-single-gallery-info">
+                              <img class="mu-view-btn" src="assets/img/plus.png" alt="plus icon img">
+                          </div> 
+                        </a>
+	                    </figure>            
+                  	</div>
+                </div>
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">
+                  	 <div class="mu-single-gallery-item">
+                        <figure class="mu-single-gallery-img">
+                          <a class="mu-imglink" href="assets/img/gallery/2.jpg">
+                            <img alt="img" src="assets/img/gallery/2.jpg">
+                             <div class="mu-single-gallery-info">
+                                <img class="mu-view-btn" src="assets/img/plus.png" alt="plus icon img">
+                            </div> 
+                          </a>
+                        </figure>            
+                    </div>
+                </div>               
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">                  
+                  	 <div class="mu-single-gallery-item">
+                      <figure class="mu-single-gallery-img">
+                        <a class="mu-imglink" href="assets/img/gallery/3.jpg">
+                          <img alt="img" src="assets/img/gallery/3.jpg">
+                           <div class="mu-single-gallery-info">
+                              <img class="mu-view-btn" src="assets/img/plus.png" alt="plus icon img">
+                          </div> 
+                        </a>
+                      </figure>            
+                    </div>
+                </div>               
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">                  
+                  	<div class="mu-single-gallery-item">
+                      <figure class="mu-single-gallery-img">
+                        <a class="mu-imglink" href="assets/img/gallery/4.jpg">
+                          <img alt="img" src="assets/img/gallery/4.jpg">
+                           <div class="mu-single-gallery-info">
+                              <img class="mu-view-btn" src="assets/img/plus.png" alt="plus icon img">
+                          </div> 
+                        </a>
+                      </figure>            
+                    </div>
+                </div>
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">                  
+                  	<div class="mu-single-gallery-item">
+                      <figure class="mu-single-gallery-img">
+                        <a class="mu-imglink" href="assets/img/gallery/5.jpg">
+                          <img alt="img" src="assets/img/gallery/5.jpg">
+                           <div class="mu-single-gallery-info">
+                              <img class="mu-view-btn" src="assets/img/plus.png" alt="plus icon img">
+                          </div> 
+                        </a>
+                      </figure>            
+                    </div>
+                </div>               
+                <!-- End single gallery image -->  
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">                  
+                   <div class="mu-single-gallery-item">
+                      <figure class="mu-single-gallery-img">
+                        <a class="mu-imglink" href="assets/img/gallery/6.jpg">
+                          <img alt="img" src="assets/img/gallery/6.jpg">
+                           <div class="mu-single-gallery-info">
+                              <img class="mu-view-btn" src="assets/img/plus.png" alt="plus icon img">
+                          </div> 
+                        </a>
+                      </figure>            
+                    </div>
+                </div>
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">                  
+                  	<div class="mu-single-gallery-item">
+                      <figure class="mu-single-gallery-img">
+                        <a class="mu-imglink" href="assets/img/gallery/7.jpg">
+                          <img alt="img" src="assets/img/gallery/7.jpg">
+                           <div class="mu-single-gallery-info">
+                              <img class="mu-view-btn" src="assets/img/plus.png" alt="plus icon img">
+                          </div> 
+                        </a>
+                      </figure>            
+                    </div>
+                </div>               
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">                  
+                  	<div class="mu-single-gallery-item">
+                      <figure class="mu-single-gallery-img">
+                        <a class="mu-imglink" href="assets/img/gallery/8.jpg">
+                          <img alt="img" src="assets/img/gallery/8.jpg">
+                           <div class="mu-single-gallery-info">
+                              <img class="mu-view-btn" src="assets/img/plus.png" alt="plus icon img">
+                          </div> 
+                        </a>
+                      </figure>            
+                    </div>
+                </div>               
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">                  
+                  	<div class="mu-single-gallery-item">
+                      <figure class="mu-single-gallery-img">
+                        <a class="mu-imglink" href="assets/img/gallery/9.jpg">
+                          <img alt="img" src="assets/img/gallery/9.jpg">
+                           <div class="mu-single-gallery-info">
+                              <img class="mu-view-btn" src="assets/img/plus.png" alt="plus icon img">
+                          </div> 
+                        </a>
+                      </figure>            
+                    </div>
+                </div>
+                <!-- End single gallery image -->  
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Gallery -->
+  
+    <!-- Start Counter Section -->
+  <section id="mu-counter">
+    <div class="mu-counter-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="mu-counter-area">
+
+              <ul class="mu-counter-nav">
+
+                <li class="col-md-3 col-sm-3 col-xs-12">
+                  <div class="mu-single-counter">
+                    <span>Delicious</span>
+                    <h3><span class="counter-value" data-count="30">0</span><sup>+</sup></h3>
+                    <p>Pastas</p>
+                  </div>
+                </li>
+
+                <li class="col-md-3 col-sm-3 col-xs-12">
+                  <div class="mu-single-counter">
+                    <span>Hot</span>
+                    <h3><span class="counter-value" data-count="100">0</span><sup>+</sup></h3>
+                    <p>Cutomised pastas</p>
+                  </div>
+                </li>
+
+                 <li class="col-md-3 col-sm-3 col-xs-12">
+                  <div class="mu-single-counter">
+                    <span>Fresh</span>
+                     <h3><span class="counter-value" data-count="150">0</span><sup>+</sup></h3>
+                    <p>Ingredients</p>
+                  </div>
+                </li>
+
+                 <li class="col-md-3 col-sm-3 col-xs-12">
+                  <div class="mu-single-counter">
+                    <span>Satisfied</span>
+                    <h3><span class="counter-value" data-count="5000">0</span><sup>+</sup></h3>
+                    <p>Customers</p>
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Counter Section --> 
+
+  
+  
+   <!-- Start About us -->
+  <section id="mu-about-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-about-us-area">
+
+            <div class="mu-title">
+              <span class="mu-subtitle">Discover</span>
+              <h2>ABOUT US</h2>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+               <div class="mu-about-us-left">     
+                <img src="assets/img/about-us.jpg" alt="img">           
+                </div>
+              </div>
+              <div class="col-md-6">
+                 <div class="mu-about-us-right">
+                 <p>Rigatoni is founded by Andrew Bruno in 2017. We are an authentic pasta specified restaurant that provides various pasta that is made by top international chefs. </p>                              
+                  <ul>
+					<li>We are the people who are passionate about pasta!</li>
+                    <li>All ingredients are prepared fresh every morning.</li>
+					<li>We have a capacity to hold 200+ customers. Large groups are welcome</li>
+                    <li>We are a family friendly restaurant.</li>
+                    <li>A large see-through playground room is provided for children.</li>
+                    
+                  </ul>
+                  <p>See our special pasta and the images of our restaurant in gallery!</p>  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About us -->
+  
+  
+  
+  <!-- Start Client Testimonial section -->
+  <section id="mu-client-testimonial">
+    <div class="mu-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="mu-client-testimonial-area">
+
+              <div class="mu-title">
+                <span class="mu-subtitle">Testimonials</span>
+                <h2>What Customers Say</h2>
+              </div>
+
+              <!-- testimonial content -->
+              <div class="mu-testimonial-content">
+                <!-- testimonial slider -->
+                <ul class="mu-testimonial-slider">
+                  <li>
+                    <div class="mu-testimonial-single">                   
+                      <div class="mu-testimonial-info">
+                        <p>Rigatoni is a retaurant that provides only pasta (almost). When I first heard about this, I immediately thought that it is going to be amazing as they focus on pasta only, thus perfect pasta! When I tried the RIGATONI AL TONO E PISELLI, I realised that was the most delicious pasta I have ever tried.</p>
+                      </div>
+                      <div class="mu-testimonial-bio">
+                        <p>- David Muller</p>                      
+                      </div>
+                    </div>
+                  </li>
+                   <li>
+                    <div class="mu-testimonial-single">                   
+                      <div class="mu-testimonial-info">
+                        <p>It is just awesome. From drinks to main meal, there was nothing that I did not want to try again. This restaurant is definitely 5 out of 5</p>
+                      </div>
+                      <div class="mu-testimonial-bio">
+                        <p>- Susan Will</p>                      
+                      </div>
+                    </div>
+                  </li>
+                   <li>
+                    <div class="mu-testimonial-single">                   
+                      <div class="mu-testimonial-info">
+                        <p>First of all, thanks to Andrew Bruno. Yon made my day. When I tried his dishes, I realised we are born to eat this kind of delicious food to live this world.</p>
+                      </div>
+                      <div class="mu-testimonial-bio">
+                        <p>- John Cook</p>                      
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Client Testimonial section -->
+  
+  
+
+ 
+
+    <!-- Start Contact section -->
+    <section id="mu-contact">
+      <form action ="check_contactUs.php" method="POST">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-contact-area">
+
+            <div class="mu-title">
+              <span class="mu-subtitle">Get In Touch</span>
+              <h2>Contact Us</h2>
+            </div>
+
+            <div class="mu-contact-content">
+              <div class="row">
+
+                <div class="col-md-6">
+                  <div class="mu-contact-left">
+                    <!-- Email message div -->
+                    <div id="form-messages"></div>
+                    <!-- Start contact form -->
+                    
+                      <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                      </div>
+                      <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+                      </div>
+                      <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" name="message"  cols="30" rows="10" placeholder="Type Your Message"></textarea>
+                      </div>
+                      <button type="submit" class="mu-send-btn">Send Message</button>
+                    </form>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="mu-contact-right">
+                    <div class="mu-contact-widget">
+                      <h3>Restaurant Address</h3>
+                      <p>Please contact us if you have any enquiries.</p>
+                      <address>
+                        <p><i class="fa fa-phone"></i>(02) 9202 3322</p>
+                        <p><i class="fa fa-envelope-o"></i>rigatoni.ait@gmail.com</p>
+                        <p><i class="fa fa-map-marker"></i>1 Pitt St, Sydney NSW Australia 2000</p>
+                      </address>
+                    </div>
+                    <div class="mu-contact-widget">
+                      <h3>Open Hours</h3>
+                      <address>
+                        <p><span>Monday - Sunday</span>12.00 pm to 10 pm</p>
+                        <p><span>Friday &amp; Saturday</span>&nbsp;  11.00 pm to midnight</p>
+                        <p><span>Sunday</span> &nbsp;&nbsp;&nbsp;12.00 pm to 11 pm</p>
+                      </address>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact section -->
+
+  <!-- Start Map section -->
+  <section id="mu-map">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3313.079387385606!2d151.20698911520998!3d-33.8618448806582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae426f47ee9d%3A0x1c237909a632c1df!2s1+Pitt+St%2C+Sydney+NSW+2000!5e0!3m2!1sen!2sau!4v1516835832103" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
+  </section>
+  <!-- End Map section -->
+
+  <!-- Start Footer -->
+  <footer id="mu-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        <div class="mu-footer-area">
+           <div class="mu-footer-social">
+            <a href="https://www.facebook.com/Rigatoni-pasta-bar-1622107821190591/"><span class="fa fa-facebook"></span></a>
+          </div>
+          <div class="mu-footer-copyright">
+            <p>&copy; Copyright 2018 <a rel="nofollow" href="https://www.facebook.com/Rigatoni-pasta-bar-1622107821190591/">Rigatoni</a>. All right reserved.</p>
+          </div>         
+        </div>
+      </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+  
+  <!-- jQuery library -->
+  <script src="assets/js/jquery.min.js"></script>  
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="assets/js/bootstrap.js"></script>   
+  <!-- Slick slider -->
+  <script type="text/javascript" src="assets/js/slick.js"></script>
+  <!-- Counter -->
+  <script type="text/javascript" src="assets/js/simple-animated-counter.js"></script>
+  <!-- Gallery Lightbox -->
+  <script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
+  <!-- Date Picker -->
+  <script type="text/javascript" src="assets/js/bootstrap-datepicker.js"></script> 
+  <!-- Ajax contact form  -->
+  <script type="text/javascript" src="assets/js/app.js"></script>
+ 
+  <!-- Custom js -->
+  <script src="assets/js/custom.js"></script> 
+
+  </body>
+</html>

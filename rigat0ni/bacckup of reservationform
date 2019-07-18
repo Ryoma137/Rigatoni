@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html"; charset="Shift_JIS">
+        <title>Booking Page</title>
+    </head>
+    <?php
+        //name
+        $name =htmlspecialchars($_POST['name']);
+        //mail address
+        $email =htmlspecialchars($_POST['email']);
+        //phone number
+        $phoneNumber =htmlspecialchars($_POST['phoneNumber']);
+        //people
+        $people =htmlspecialchars($_POST['people']);
+        //time
+        $time =htmlspecialchars($_POST['time']);
+        //date
+        $date =htmlspecialchars($_POST['date']);
+            list($month,$day,$year) = explode('/',$date);
+
+            $input_date = $day."/".$month."/".$year;
+        //pasta type
+       /* if(!empty($_POST['pastaType'])){
+            $pastaType = $_POST['pastaType'];
+       }else{
+            $pastaType =htmlspecialchars($_POST['pastaType']);
+       }
+*/
+
+
+        //toppings
+    if(isset($_POST['reservation_submit'])){
+        if(!empty($_POST['toppings'])) {
+            foreach($_POST['toppings'] as $selected) {
+                echo "<p>".$selected ."</p>";
+                }
+        }
+    }
+        
+    ?>
+    <body>
+        Please ensure reservation information
+        <br>
+        Your name
+        <br>
+        <?php echo $name;?>
+        <br>
+        <br>
+        Your email address
+        <br>
+        <?php echo $email;?>
+        <br>
+        <br>
+        Your phone number
+        <br>
+        <?php echo $phoneNumber;?>
+        <br>
+        The number of people
+        <br>
+        <?php echo $people;?>
+        <br>
+        <br>
+        Reservation time
+        <br>
+        <?php echo $time;?>
+        <br>
+        <br>
+        Reservation date
+        <br>
+        <?php echo $input_date;?>
+        <br>
+        Your chosen pasta type
+        <br>
+        <?php echo $pastaType;?>
+        <br>
+        <br>
+        Your chosen topping
+        <br>
+        <?php //echo $selected;
+        foreach($_POST['toppings'] as $selected) {
+                echo "<p>".$selected ."</p>";
+                }
+        
+        ?>
+        <br>
+
+        <br><br>
+        <form action="write_reservation.php" method="post">
+        <input type="hidden" name="name" value="<?php echo $name;?>">
+        <input type="hidden" name="email" value="<?php echo $email;?>">
+        <input type="hidden" name="phoneNumber" value="<?php echo $phoneNumber;?>">
+        <input type="hidden" name="people" value="<?php echo $people;?>">
+        <input type="hidden" name="time" value="<?php echo $time;?>">
+        <input type="hidden" name="date" value="<?php echo $input_date;?>">
+        <!--<input type="hidden" name="pastaType" value=?php echo $pastaType;?-->
+        <input type="hidden" name="toppings" value="<?php echo $selected ?>">
+
+
+        <input type="submit" value="Submit">
+        </form>
+
+    </body>
+</html>
